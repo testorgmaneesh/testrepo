@@ -11,10 +11,5 @@ pipeline {
                 sh "echo step2"
             }
         }
-        stage('Yum Client Repository Setup') {
-            steps {
-                sh "echo step3"
-            }
-        }
     }
 }
